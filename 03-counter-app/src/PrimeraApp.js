@@ -3,17 +3,17 @@ import  PropTypes  from "prop-types";
 
 const PrimeraApp = ({saludo, subtitulo}) => {
 
-    const objectExample = {
-        name: 'Clara',
-        age: 24,
-        hobby: 'OF'
-    }
+    // const objectExample = {
+    //     name: 'Clara',
+    //     age: 24,
+    //     hobby: 'OF'
+    // }
 
   return (
     <>
       <h1>{ saludo }</h1>
       <h2>{subtitulo}</h2>
-      <pre>{ JSON.stringify( objectExample, null, 4) }</pre>
+      {/* <pre>{ JSON.stringify( objectExample, null, 4) }</pre> */}
     </>
   );
 };
