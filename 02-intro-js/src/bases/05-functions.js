@@ -1,4 +1,4 @@
-// Funciones en JS
+    // Funciones en JS
 // const saludar = function( nombre ) {
 //     return `Hola, ${ nombre }`;
 // }
